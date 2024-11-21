@@ -1,38 +1,145 @@
-.App {
+body {
+  background: radial-gradient(ellipse at bottom, #0e292b 54%, #011517 80%);
+}
+h1,
+h2 {
+  font-family: "Mango Grotesque";
+}
+.header {
+  /* background: radial-gradient(ellipse at bottom, #0e292b 54%, #011517 80%); */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.glow {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.glow h1 {
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 20px #0d5e68, 0 0 20px #0d5e68;
+  font-style: italic;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.glow .minor {
+  display: block;
+  font-size: 100px;
+  font-style: italic;
+  word-spacing: 3px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.glow p {
   color: white;
 }
+/* Buy Now Button */
 
-.App-link {
-  color: #61dafb;
+.btn-1 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #44e2b1;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+  color: white;
+  border-radius: 30px;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-1:hover:before {
+  left: 80%;
+  background: linear-gradient(
+    270deg,
+    /* Controls direction */ rgba(68, 226, 177, 0.8) 0%,
+    /* Solid color start */ rgba(68, 226, 177, 0.3) 60%,
+    /* Fades at 70% */ transparent 100% /* Fully fades out */
+  );
+}
+
+.btn-1:hover:after {
+  right: 80%;
+  background: linear-gradient(
+    90deg,
+    /* Controls direction */ rgba(68, 226, 177, 0.8) 0%,
+    /* Solid color start */ rgba(68, 226, 177, 0.3) 60%,
+    /* Fades at 70% */ transparent 100% /* Fully fades out */
+  );
+}
+
+.btn-1:before {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 50px;
+  background: linear-gradient(
+    90deg,
+    /* Controls direction */ rgba(68, 226, 177, 0.8) 0%,
+    /* Solid color start */ rgba(68, 226, 177, 0.3) 60%,
+    /* Fades at 70% */ transparent 100% /* Fully fades out */
+  );
+  left: -15px;
+  top: -40px;
+  transform: rotate(37deg);
+  transition: all 0.3s;
+}
+
+.btn-1:after {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 50px;
+  background: linear-gradient(
+    270deg,
+    /* Controls direction */ rgba(68, 226, 177, 0.8) 0%,
+    /* Solid color start */ rgba(68, 226, 177, 0.3) 60%,
+    /* Fades at 70% */ transparent 100% /* Fully fades out */
+  );
+  right: -15px;
+  bottom: -40px;
+  transform: rotate(37deg);
+  transition: all 0.3s;
+}
+/* Btn-learn */
+.btn-learn {
+  color: #4e6465;
+  border: 1px solid #4e6465;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+  border-radius: 30px;
+  width: 200px;
+}
+/* Card-one */
+.card-one {
+  padding: 20px;
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid #44e2b1;
+  color: white;
+  padding-top: 60px;
+}
+.card-one .glow h1 {
+  text-align: justify;
+  line-height: 35px;
+  font-style: italic;
+}
+.card-one .glow p {
+  text-align: justify;
+}
+.card-image-one {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.card-grid {
+  padding: 0px 08px;
+}
+h1.class-grid-heading {
+  font-size: 6rem;
 }

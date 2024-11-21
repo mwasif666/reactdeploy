@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Header from "./Header";
+import CardGrid from "./CardGrid";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Header />
+      <CardGrid />
+    </>
+  );
+};
 
-export default App
+export default App;
