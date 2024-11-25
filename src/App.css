@@ -4,6 +4,7 @@ body {
 h1,
 h2 {
   font-family: "Mango Grotesque";
+  font-style: italic;
 }
 .header {
   background: radial-gradient(ellipse at top, #0e292b 54%, #011517 72%);
@@ -42,7 +43,9 @@ h2 {
   margin: 0 20px;
   color: white;
   border-radius: 30px;
-  width: 200px;
+  width: 220px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .btn-1:hover:before {
@@ -277,4 +280,112 @@ h1.class-grid-heading {
 }
 .heading-text-grouping p {
   font-size: 23px;
+}
+/* Services */
+.services-text {
+  font-size: 8.5rem;
+  line-height: 8rem;
+}
+.service p {
+  font-size: 23px;
+}
+.image-service img {
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+}
+/* Packages */
+
+.package-card {
+  border: 1px solid #00ffab; /* Neon green border */
+  border-radius: 20px;
+  background-color: transparent; /* Dark green shade */
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.price {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.price h1 {
+  font-size: 3rem;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 1px solid white;
+  padding-top: 10px;
+  width: 200px;
+}
+
+@media (max-width: 576px) {
+  .price {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+.details-packages li {
+  font-size: 23px;
+}
+.packages-paragraph {
+  font-size: 23px;
+}
+/* Started */
+.started2 {
+  background: radial-gradient(ellipse at bottom, #0e292b 54%, #011517 72%);
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+.started2 p,
+.header p {
+  font-size: 23px;
+}
+.steps-container {
+  background-color: #001b1b; /* Dark background */
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.step p {
+  padding-top: 10px;
+}
+
+.step img {
+  width: 40px;
+  height: 40px;
+}
+
+.divider {
+  width: 2px;
+  height: 70px;
+  background-color: #00ffab;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .divider {
+    display: none; /* Hide divider on smaller screens */
+  }
+
+  .step p {
+    font-size: 14px;
+  }
 }

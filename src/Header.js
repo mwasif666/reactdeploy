@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <div className="header">
       <Container className="my-auto ">
-        <div class="glow">
-          <h1 class="minor">RELIABLE. TRANSFERABLE. SECURE.</h1>
+        <div className="glow">
+          <h1 className="minor">RELIABLE. TRANSFERABLE. SECURE.</h1>
           <p>
             Flash USDT is a simulated digital currency that behaves just like
             real USDT. Use it for practice trading, <br /> product testing, or
