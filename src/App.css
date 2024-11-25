@@ -259,6 +259,9 @@ h1.class-grid-heading {
   background-size: contain;
   top: 0;
 }
+.card-content {
+  width: 90%;
+}
 .card-grouping .card {
   overflow: hidden;
   padding-right: 100px;
