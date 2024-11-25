@@ -105,7 +105,7 @@ const CardGrid = () => {
   ];
 
   return (
-    <Container>
+    <Container className="my-5">
       <Row>
         <div className="glow pb-5">
           <h1 className="class-grid-heading">WHY USE FLASH USDT?</h1>
