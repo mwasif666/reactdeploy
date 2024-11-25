@@ -48,7 +48,7 @@ const PackageCards = () => {
   ];
 
   return (
-    <Container className="py-4 ">
+    <Container className="pt-4 ">
       <div className="glow py-5">
         <h1 className="services-text">
           PACKAGES WHICH <br /> FIT EVERY NEED
@@ -65,7 +65,7 @@ const PackageCards = () => {
             xs={12}
             sm={6}
             md={4}
-            className="d-flex justify-content-center mb-4"
+            className="d-flex justify-content-center"
           >
             <Card className="text-center package-card">
               <Card.Body>

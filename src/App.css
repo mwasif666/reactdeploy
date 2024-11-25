@@ -342,8 +342,8 @@ h1.class-grid-heading {
 }
 /* Started */
 .started2 {
-  background: radial-gradient(ellipse at bottom, #0e292b 54%, #011517 72%);
-  height: 700px;
+  background: radial-gradient(ellipse at top, #0e292b 50%, #011517 70%);
+  height: 800px;
   display: flex;
   align-items: center;
 }
@@ -388,4 +388,166 @@ h1.class-grid-heading {
   .step p {
     font-size: 14px;
   }
+}
+/* FAQ */
+
+.faq-container {
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.faq-container h3 {
+  font-family: "Archivo", sans-serif;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #44dcad;
+  padding: 15px 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #00ffab;
+  background-color: #001b1b !important;
+  box-shadow: none;
+}
+
+.accordion-body {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  border-top: 1px solid #00ffab;
+  padding: 10px 15px;
+}
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: transparent !important;
+  border: none !important;
+}
+.FAQ-heading {
+  font-size: 7.5rem;
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin-left: auto;
+  content: ""; /* Empty content */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-chevron-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-chevron-up' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 10.354a.5.5 0 0 1 .708 0L8 4.707l5.646 5.647a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1-.708 0l-6 6a.5.5 0 0 1 0 .708z'/%3E%3C/svg%3E");
+  transform: rotate(0deg); /* Chevron pointing upwards */
+}
+/* Support */
+.card-support {
+  position: relative;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0) 54%,
+    rgba(01, 21, 23, 1) 80%
+  );
+  /* Background color matching your design */
+  overflow: hidden;
+  height: 100%;
+  padding-bottom: 130px;
+}
+
+.card-support .card {
+  /* Ensures cards are above the gradient */
+  background-color: #112226;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin: 10px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  /* Adds depth to cards */
+}
+
+.card-support .card {
+  position: relative;
+  z-index: -1;
+  height: 300px;
+  margin-bottom: 10px;
+  background-color: #0a2224;
+  overflow: hidden;
+}
+.card-support .card .card-content {
+  width: 100%;
+}
+
+.card-support .col {
+  padding: 0px 7px;
+}
+
+.card-text-grouping {
+  padding: 10px 30px;
+  padding-top: 30px;
+}
+.supporting {
+  position: relative;
+}
+.support1:after {
+  position: absolute;
+  content: "";
+  background-image: url(./images/cardthree/1.png);
+  right: -110px;
+  width: 100%;
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -110px;
+}
+
+.support2:after {
+  position: absolute;
+  content: "";
+  background-image: url(./images/cardthree/2.png);
+  right: -110px;
+  width: 100%;
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -110px;
+}
+.support3:after {
+  position: absolute;
+  content: "";
+  background-image: url(./images/cardthree/3.png);
+  right: -110px;
+  width: 100%;
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -110px;
+}
+.supporting h2 {
+  position: relative;
+  top: 200px;
+}
+.supporting h2 {
+  font-size: 2.8rem !important;
+}
+/* Footer */
+.text-last h1 {
+  font-size: 22rem;
+  color: #28ab97;
+}
+footer {
+  height: 350px;
+  overflow: hidden;
 }
