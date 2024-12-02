@@ -559,11 +559,12 @@ h1.class-grid-heading {
 }
 /* Footer */
 .text-last h1 {
-  font-size: 22rem;
+  font-size: 18em;
   color: #28ab97;
+  text-align: center;
 }
 footer {
-  height: 350px;
+  height: 300px;
   overflow: hidden;
 }
 .footer-container {
@@ -792,13 +793,6 @@ footer {
   }
 }
 @media all and (min-width: 769px) and (max-width: 992px) {
-  .glow .minor {
-    font-size: 4rem;
-    letter-spacing: 2px;
-  }
-  .header p {
-    font-size: 15px;
-  }
   .header {
     background: radial-gradient(ellipse at center, #0e292b 30%, #011517 82%);
   }
@@ -811,8 +805,11 @@ footer {
     width: 170px;
     font-size: 16px;
   }
+  .card-one .glow h1 {
+    line-height: 30px;
+    font-size: 24px;
+  }
   .btn-headers {
-    display: flex;
     margin-top: 50px;
   }
   h1.class-grid-heading {
@@ -829,7 +826,7 @@ footer {
     display: none;
   }
   .card-grouping2 {
-    display: inline-block;
+    display: block;
   }
   .card-content h2 {
     font-size: 26px;
@@ -865,9 +862,7 @@ footer {
   .image-service img {
     margin-top: 0px;
   }
-  p br {
-    display: none;
-  }
+
   .started2 {
     background: radial-gradient(ellipse at center, #0e292b 20%, #011517 80%);
   }
@@ -891,7 +886,7 @@ footer {
     padding: 20px 30px;
   }
   .text-last h1 {
-    font-size: 5.4rem;
+    font-size: 12.4rem;
     color: #28ab97;
   }
   .text-last {

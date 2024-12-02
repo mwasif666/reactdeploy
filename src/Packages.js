@@ -64,7 +64,7 @@ const PackageCards = () => {
             key={pkg.id}
             xs={12}
             sm={6}
-            md={4}
+            md={6}
             className="d-flex justify-content-center mb-4"
           >
             <Card className="text-center package-card ">
