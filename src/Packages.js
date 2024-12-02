@@ -65,6 +65,7 @@ const PackageCards = () => {
             xs={12}
             sm={6}
             md={6}
+            lg={4}
             className="d-flex justify-content-center mb-4"
           >
             <Card className="text-center package-card ">
