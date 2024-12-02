@@ -281,6 +281,19 @@ h1.class-grid-heading {
 .heading-text-grouping p {
   font-size: 23px;
 }
+
+.row-top-minus {
+  margin-top: -140px;
+}
+.col-left-minus {
+  margin-left: -210px;
+}
+.col-right-minus {
+  margin-right: -210px;
+}
+.card-grouping2 {
+  display: none;
+}
 /* Services */
 .services-text {
   font-size: 8.5rem;
@@ -490,7 +503,9 @@ h1.class-grid-heading {
 .card-support .col {
   padding: 0px 7px;
 }
-
+.card-support2 {
+  display: none;
+}
 .card-text-grouping {
   padding: 10px 30px;
   padding-top: 30px;
@@ -550,4 +565,339 @@ h1.class-grid-heading {
 footer {
   height: 350px;
   overflow: hidden;
+}
+.footer-container {
+  color: white;
+  padding: 20px 120px;
+}
+/* Responsive design */
+@media all and (min-width: 300px) and (max-width: 600px) {
+  .glow .minor {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+  .header p {
+    font-size: 15px;
+  }
+  .header {
+    background: radial-gradient(ellipse at center, #0e292b 30%, #011517 82%);
+  }
+  .btn-learn {
+    padding: 10px 20px;
+    width: 170px;
+  }
+  .btn-1 {
+    padding: 10px 20px;
+    width: 170px;
+    font-size: 16px;
+  }
+  .btn-headers {
+    display: flex;
+    margin-top: 50px;
+  }
+  h1.class-grid-heading {
+    font-size: 4rem;
+  }
+  .glow p {
+    font-size: 15px;
+  }
+  .heading-text-grouping h1 {
+    font-size: 4rem;
+    line-height: 70px;
+  }
+  .card-grouping1 {
+    display: none;
+  }
+  .card-grouping2 {
+    display: inline-block;
+  }
+  .card-content h2 {
+    font-size: 26px;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+  .card-content {
+    width: 100%;
+  }
+  .card-content p {
+    font-size: 15px;
+  }
+  .graphic1:after {
+    right: -170px;
+  }
+  .graphic2:after {
+    right: -140px;
+  }
+  .graphic3:after {
+    right: -140px;
+  }
+  .graphic4:after {
+    right: -150px;
+  }
+  .card-grouping {
+    height: 1400px;
+  }
+  .services-text {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .image-service img {
+    margin-top: 0px;
+  }
+  p br {
+    display: none;
+  }
+  .started2 {
+    background: radial-gradient(ellipse at center, #0e292b 20%, #011517 80%);
+  }
+  .FAQ-heading {
+    font-size: 3.5rem;
+  }
+  h2.accordion-header h3 {
+    font-size: 18px;
+  }
+  .packages-paragraph {
+    font-size: 15px;
+    padding: 0px 30px;
+  }
+  .card-support1 {
+    display: none;
+  }
+  .card-support2 {
+    display: block;
+  }
+  .footer-container {
+    padding: 20px 30px;
+  }
+  .text-last h1 {
+    font-size: 5.4rem;
+    color: #28ab97;
+  }
+  .text-last {
+    text-align: center;
+  }
+  footer {
+    height: 270px;
+  }
+}
+@media all and (min-width: 601px) and (max-width: 768px) {
+  .glow .minor {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+  .header p {
+    font-size: 15px;
+  }
+  .header {
+    background: radial-gradient(ellipse at center, #0e292b 30%, #011517 82%);
+  }
+  .btn-learn {
+    padding: 10px 20px;
+    width: 170px;
+  }
+  .btn-1 {
+    padding: 10px 20px;
+    width: 170px;
+    font-size: 16px;
+  }
+  .btn-headers {
+    display: flex;
+    margin-top: 50px;
+  }
+  h1.class-grid-heading {
+    font-size: 4rem;
+  }
+  .glow p {
+    font-size: 15px;
+  }
+  .heading-text-grouping h1 {
+    font-size: 4rem;
+    line-height: 70px;
+  }
+  .card-grouping1 {
+    display: none;
+  }
+  .card-grouping2 {
+    display: inline-block;
+  }
+  .card-content h2 {
+    font-size: 26px;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+  .card-content {
+    width: 100%;
+  }
+  .card-content p {
+    font-size: 15px;
+  }
+  .graphic1:after {
+    right: -170px;
+  }
+  .graphic2:after {
+    right: -140px;
+  }
+  .graphic3:after {
+    right: -140px;
+  }
+  .graphic4:after {
+    right: -150px;
+  }
+  .card-grouping {
+    height: 1400px;
+  }
+  .services-text {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .image-service img {
+    margin-top: 0px;
+  }
+  p br {
+    display: none;
+  }
+  .started2 {
+    background: radial-gradient(ellipse at center, #0e292b 20%, #011517 80%);
+  }
+  .FAQ-heading {
+    font-size: 3.5rem;
+  }
+  h2.accordion-header h3 {
+    font-size: 18px;
+  }
+  .packages-paragraph {
+    font-size: 15px;
+    padding: 0px 30px;
+  }
+  .card-support1 {
+    display: none;
+  }
+  .card-support2 {
+    display: block;
+  }
+  .footer-container {
+    padding: 20px 30px;
+  }
+  .text-last h1 {
+    font-size: 5.4rem;
+    color: #28ab97;
+  }
+  .text-last {
+    text-align: center;
+  }
+  footer {
+    height: 270px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .glow .minor {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+  .header p {
+    font-size: 15px;
+  }
+  .header {
+    background: radial-gradient(ellipse at center, #0e292b 30%, #011517 82%);
+  }
+  .btn-learn {
+    padding: 10px 20px;
+    width: 170px;
+  }
+  .btn-1 {
+    padding: 10px 20px;
+    width: 170px;
+    font-size: 16px;
+  }
+  .btn-headers {
+    display: flex;
+    margin-top: 50px;
+  }
+  h1.class-grid-heading {
+    font-size: 4rem;
+  }
+  .glow p {
+    font-size: 15px;
+  }
+  .heading-text-grouping h1 {
+    font-size: 4rem;
+    line-height: 70px;
+  }
+  .card-grouping1 {
+    display: none;
+  }
+  .card-grouping2 {
+    display: inline-block;
+  }
+  .card-content h2 {
+    font-size: 26px;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+  .card-content {
+    width: 100%;
+  }
+  .card-content p {
+    font-size: 15px;
+  }
+  .graphic1:after {
+    right: -170px;
+  }
+  .graphic2:after {
+    right: -140px;
+  }
+  .graphic3:after {
+    right: -140px;
+  }
+  .graphic4:after {
+    right: -150px;
+  }
+  .card-grouping {
+    height: 1400px;
+  }
+  .services-text {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .image-service img {
+    margin-top: 0px;
+  }
+  p br {
+    display: none;
+  }
+  .started2 {
+    background: radial-gradient(ellipse at center, #0e292b 20%, #011517 80%);
+  }
+  .FAQ-heading {
+    font-size: 3.5rem;
+  }
+  h2.accordion-header h3 {
+    font-size: 18px;
+  }
+  .packages-paragraph {
+    font-size: 15px;
+    padding: 0px 30px;
+  }
+  .card-support1 {
+    display: none;
+  }
+  .card-support2 {
+    display: block;
+  }
+  .footer-container {
+    padding: 20px 30px;
+  }
+  .text-last h1 {
+    font-size: 5.4rem;
+    color: #28ab97;
+  }
+  .text-last {
+    text-align: center;
+  }
+  footer {
+    height: 270px;
+  }
 }

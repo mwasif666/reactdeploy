@@ -12,7 +12,7 @@ const Support = () => {
             needs.
           </p>
         </div>
-        <div className="card-support">
+        <div className="card-support card-support1">
           <div className="row">
             <div
               className="col"
@@ -39,6 +39,89 @@ const Support = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="col">
+              <div className="card card-text-grouping">
+                <div className="supporting right support3">
+                  <div className="card-content">
+                    <h2>REPORT AN ISSUE</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col"
+              style={{
+                marginRight: "-100px",
+              }}
+            >
+              <div className="card"></div>
+            </div>
+          </div>
+        </div>
+        <div className="card-support card-support2">
+          <div className="row">
+            <div
+              className="col"
+              style={{
+                marginLeft: "-100px",
+              }}
+            >
+              <div className="card"></div>
+            </div>
+            <div className="col">
+              <div className="card card-text-grouping">
+                <div className="supporting left support1">
+                  <div className="card-content">
+                    <h2>CONTACT US</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col"
+              style={{
+                marginRight: "-100px",
+              }}
+            >
+              <div className="card"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col"
+              style={{
+                marginLeft: "-100px",
+              }}
+            >
+              <div className="card"></div>
+            </div>
+            <div className="col">
+              <div className="card card-text-grouping">
+                <div className="supporting right support2">
+                  <div className="card-content">
+                    <h2>JOIN OUR COMMUNITY</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col"
+              style={{
+                marginRight: "-100px",
+              }}
+            >
+              <div className="card"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col"
+              style={{
+                marginLeft: "-100px",
+              }}
+            >
+              <div className="card"></div>
             </div>
             <div className="col">
               <div className="card card-text-grouping">

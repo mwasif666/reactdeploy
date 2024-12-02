@@ -14,7 +14,7 @@ const Header = () => {
             simply showing off your wealth without any real-world financial
             risk.
           </p>
-          <div>
+          <div className="btn-headers">
             <span className="btn-learn">Learn More</span>
             <span className="btn-1">Buy Now</span>
           </div>

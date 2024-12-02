@@ -4,12 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Footer = () => {
   return (
     <footer>
-      <Container
-        style={{
-          color: "#ffffff",
-          padding: "20px 120px",
-        }}
-      >
+      <Container className="footer-container">
         <Row>
           <Col xs={6} md={3}>
             <ul style={{ listStyle: "none", padding: 0 }}>
