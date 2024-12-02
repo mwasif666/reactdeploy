@@ -310,20 +310,40 @@ h1.class-grid-heading {
 /* Packages */
 
 .package-card {
-  border: 1px solid #00ffab; /* Neon green border */
   border-radius: 20px;
   background-color: transparent; /* Dark green shade */
   color: white;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); */
   padding: 20px;
   height: 100%;
   width: 100%;
 }
 
+#package-2 {
+  background-image: url(./images/price1bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#package-1 {
+  background-image: url(./images/price2bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#package-3 {
+  background-image: url(./images/price3bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.package-card {
+  height: 100%;
+}
 .circle {
   width: 50px;
   height: 50px;
-  background-color: orange;
+  background-color: transparent;
   border-radius: 50%;
 }
 

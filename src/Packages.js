@@ -48,7 +48,7 @@ const PackageCards = () => {
   ];
 
   return (
-    <Container className="pt-4 ">
+    <Container className="pt-4">
       <div className="glow py-5">
         <h1 className="services-text">
           PACKAGES WHICH <br /> FIT EVERY NEED
@@ -58,17 +58,10 @@ const PackageCards = () => {
           testing. <br /> Pick the right package and start simulating right away
         </p>
       </div>
-      <Row className="justify-content-center">
+      <Row className="">
         {packages.map((pkg) => (
-          <Col
-            key={pkg.id}
-            xs={12}
-            sm={6}
-            md={6}
-            lg={4}
-            className="d-flex justify-content-center mb-4"
-          >
-            <Card className="text-center package-card ">
+          <Col key={pkg.id} xs={12} sm={6} md={6} lg={4} className="mb-4">
+            <Card id={`package-${pkg.id}`} className="text-center package-card">
               <Card.Body>
                 <div className="circle mx-auto mb-3"></div>
                 <h2 className="mb-3">{pkg.title}</h2>
