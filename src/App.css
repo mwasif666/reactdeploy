@@ -269,7 +269,7 @@ h1.class-grid-heading {
   overflow: hidden;
   padding-right: 100px;
 }
-.card-content h2 {
+.card-grouping1 .card-content h2 {
   font-size: 39px;
   font-style: italic;
   letter-spacing: 2px;
