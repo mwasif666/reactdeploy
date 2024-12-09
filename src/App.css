@@ -270,10 +270,11 @@ h1.class-grid-heading {
   padding-right: 100px;
 }
 .card-content h2 {
-  font-size: 50px;
+  font-size: 39px;
   font-style: italic;
   letter-spacing: 2px;
   line-height: 50px;
+  padding-top: 40px;
 }
 .card-content p {
   font-size: 19px;

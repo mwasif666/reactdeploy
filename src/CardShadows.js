@@ -88,10 +88,10 @@ const CardShadows = () => {
             <div className="card card-text-grouping">
               <div className="graphic right graphic3">
                 <div className="card-content">
-                  <h2>WALLET TRANSFERABILITY</h2>
+                  <h2>USED IN PRODUCT TESTING</h2>
                   <p>
-                    Easily move Flash USDT between supported wallets and
-                    exchanges for seamless use.
+                    Flash USDT is perfect for testing out trading platforms,
+                    products, or new crypto features.
                   </p>
                 </div>
               </div>
@@ -101,10 +101,10 @@ const CardShadows = () => {
             <div className="card card-text-grouping">
               <div className="graphic right graphic4">
                 <div className="card-content">
-                  <h2>WALLET TRANSFERABILITY</h2>
+                  <h2>FUTURES & SPOT TRADING</h2>
                   <p>
-                    Easily move Flash USDT between supported wallets and
-                    exchanges for seamless use.
+                    Supports both futures and spot trading for full simulation
+                    of real-world trading conditions.
                   </p>
                 </div>
               </div>
@@ -193,10 +193,10 @@ const CardShadows = () => {
             <div className="card card-text-grouping">
               <div className="graphic right graphic3">
                 <div className="card-content">
-                  <h2>WALLET TRANSFERABILITY</h2>
+                  <h2>USED IN PRODUCT TESTING</h2>
                   <p>
-                    Easily move Flash USDT between supported wallets and
-                    exchanges for seamless use.
+                    Flash USDT is perfect for testing out trading platforms,
+                    products, or new crypto features.
                   </p>
                 </div>
               </div>
@@ -215,10 +215,10 @@ const CardShadows = () => {
             <div className="card card-text-grouping">
               <div className="graphic right graphic4">
                 <div className="card-content">
-                  <h2>WALLET TRANSFERABILITY</h2>
+                  <h2>FUTURES & SPOT TRADING</h2>
                   <p>
-                    Easily move Flash USDT between supported wallets and
-                    exchanges for seamless use.
+                    Supports both futures and spot trading for full simulation
+                    of real-world trading conditions.
                   </p>
                 </div>
               </div>
