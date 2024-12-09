@@ -705,6 +705,9 @@ footer {
   .SDLC .card {
     padding: 20px 10px;
   }
+  .SDLC .card p {
+    font-size: 14px;
+  }
   .SDLC .step-heading {
     font-size: 4rem;
   }
