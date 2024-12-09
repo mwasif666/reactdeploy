@@ -8,6 +8,7 @@ import CardShadows from "./CardShadows";
 import FAQ from "./FAQ";
 import Support from "./Support";
 import Footer from "./Footer";
+import SDCL from "./SDLC";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Header />
       <CardGrid />
       <CardShadows />
+      <SDCL />
       <Services />
       <PackageCards />
       <Started />
