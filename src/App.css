@@ -708,6 +708,9 @@ footer {
   .SDLC .step-heading {
     font-size: 4rem;
   }
+  .timeline-container::before {
+    left: 48%;
+  }
   /* .timeline-container::before {
     left: 5px;
   }
