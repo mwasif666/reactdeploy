@@ -139,6 +139,15 @@ h2 {
   height: 50px;
   margin-left: 10px;
   margin-bottom: 10px;
+  animation: move-up-down 1s infinite alternate;
+}
+@keyframes move-up-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
 }
 .card-grid {
   padding: 0px 08px;
