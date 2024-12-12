@@ -38,7 +38,7 @@ const landingPageTimeLine = [
     cardTitle: (
       <div className="flex items-center">
         {/* <FaRocket className="icon-border-bottom" /> */}
-        <h1>Run App</h1>
+        <h1>Run Software </h1>
       </div>
     ),
     cardSubtitle: <hr className="bg-blue-500 h-1 w-[15%]" />,
@@ -55,7 +55,7 @@ const landingPageTimeLine = [
     ),
     cardSubtitle: <hr className="bg-blue-500 h-1 w-[15%]" />,
     cardDetailedText:
-      "Follow the app's intuitive interface. Insert your destination wallet, specify the amount you want to send, and complete the transaction.",
+      "Follow the software intuitive interface. Insert your destination wallet, specify the amount you want to send, and complete the transaction.",
   },
 ];
 
